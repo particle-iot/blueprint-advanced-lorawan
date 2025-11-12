@@ -1,0 +1,16 @@
+{
+  "name": "lora-keys",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@particle/device-constants": "^3.3.1",
+    "minimist": "^1.2.8",
+    "particle-usb": "^2.8.0"
+  }
+}

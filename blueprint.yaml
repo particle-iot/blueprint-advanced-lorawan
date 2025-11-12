@@ -1,0 +1,40 @@
+# blueprint.yaml
+slug: blueprint-advanced-lorawan
+type: Tutorial
+category: "LoRaWan"
+expertiseLevel: "Advanced"
+tags: ["lora", "lorawan", "muon"]
+icon: assets/hero.jpg
+gitrepo: https://github.com/particle-iot/blueprint-muon-lorawan
+name: "LoRaWAN on Muon"
+shortDescription: "A simple blueprint app to initialize, join, and send messages using the LoRa radio on the Muon with an M-SoM host."
+version: 1.0.0
+models: []
+language: ["C++"]
+cloudServices: []
+integrations: []
+supportedDevices:
+  - name: Muon
+    link: https://docs.particle.io
+webIdeLink:
+webSetupLink:
+hardwareDependencies:
+  - name: Muon
+  - name: USB cable
+introduction: |
+  Quickstart blueprint demonstrating how to use the LoRa radio on the Muon
+  with the M-SoM M.2 module as host. It walks through initialization,
+  network join, and message transmission using LoRaWAN.
+description: |
+  This tutorial shows how to configure and use the LoRaWAN stack on the
+  Particle Muon. The firmware initializes the radio, sets up LoRaWAN keys,
+  joins the network, and transmits sample messages. It provides a reference
+  for developers looking to build long-range, low-power IoT solutions
+  using Particle hardware.
+additionalResources:
+  - title: Particle Developer Docs
+    link: https://developer.particle.io/
+  - title: LoRaWAN Overview
+    link: https://lora-alliance.org/about-lorawan/
+  - title: Particle Workbench Guide
+    link: https://docs.particle.io/workbench/

@@ -1,0 +1,17 @@
+syntax = "proto3";
+import "nanopb.proto";
+
+package diags;
+
+message DiagnosticsRequest {
+    repeated uint32 ids = 1;
+}
+
+message DiagnosticsResponse {
+    message Source {
+        optional uint32 id = 1;
+        optional bytes data = 2 [(nanopb).max_size = 16];
+    }
+
+    repeated Source source = 1;
+}
