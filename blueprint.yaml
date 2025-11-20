@@ -4,7 +4,7 @@ type: Tutorial
 category: "LoRaWan"
 expertiseLevel: "Advanced"
 tags: ["lora", "lorawan", "muon"]
-icon: assets/hero.jpg
+icon: assets/lora.svg
 gitrepo: https://github.com/particle-iot/blueprint-muon-lorawan
 name: "LoRaWAN on Muon"
 shortDescription: "A simple blueprint app to initialize, join, and send messages using the LoRa radio on the Muon with an M-SoM host."
